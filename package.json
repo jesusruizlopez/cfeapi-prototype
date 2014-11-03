@@ -1,0 +1,23 @@
+{
+  "name": "cfeapi",
+  "version": "0.1.0",
+  "description": "RESTful API para proveer los servicios a las aplicaciones de CFE (CFE Móvil, CFE Admin)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pretzel",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "*",
+    "express-validator": "*",
+    "socket.io": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "method-override": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemailer": "*",
+    "mongoose-timestamp": "*"
+  }
+}
